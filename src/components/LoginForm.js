@@ -9,7 +9,9 @@ class LoginForm extends React.Component {
       password: ""
     };
   }
-
+    handleChangeUsername(e){
+      
+    }
   render() {
     return (
       <form>
