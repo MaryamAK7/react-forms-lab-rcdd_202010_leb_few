@@ -10,7 +10,7 @@ class LoginForm extends React.Component {
     };
   }
     handleChangeUsername(e){
-      
+      this.setState(e.target.value);
     }
   render() {
     return (
@@ -18,7 +18,7 @@ class LoginForm extends React.Component {
         <div>
           <label>
             Username
-            <input id="username" name="username" type="text" value={this.state.username} onChange={(e)=>(this.setState(e.target.value))}/>
+            <input id="username" name="username" type="text" value={this.state.username} onChange={handleChangeUsername}/>
           </label>
         </div>
         <div>
