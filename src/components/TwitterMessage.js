@@ -16,6 +16,7 @@ class TwitterMessage extends React.Component {
       <div>
         <strong>Your message:</strong>
         <input type="text" name="message" id="message" onChange={(e)=>(this.setState({value: e.target.value}))} value={this.state.value} />
+        {remainChar}
       </div>
     );
   }
