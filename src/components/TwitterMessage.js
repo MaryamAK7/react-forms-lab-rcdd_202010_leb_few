@@ -8,6 +8,9 @@ class TwitterMessage extends React.Component {
       value: " "
     };
   }
+  handleChange(e){
+    
+  }
 
   render() {
     return (
