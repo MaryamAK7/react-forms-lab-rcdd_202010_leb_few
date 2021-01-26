@@ -18,7 +18,9 @@ class LoginForm extends React.Component {
     this.setState({
       password: event.target.value
     })
-  }render() {
+  }
+  
+  render() {
     return (
       <form>
         <div>
